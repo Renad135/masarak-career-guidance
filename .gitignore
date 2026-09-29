@@ -1,0 +1,23 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and local data exports
+*.log
+*.sql.gz
+*.dump
